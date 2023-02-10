@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
+import theme from '../../styles/theme';
 
-// eslint-disable-next-line prettier/prettier
-export const Container = styled.div`
-  ${(props) => css`
-    background: ${props.background};
+export const ContainerHome = styled.div`
+  ${() => css`
+    /* color: ${theme.colors.backgroundSecond}; */
   `}
   width: 100vw;
   height: 100vh;
